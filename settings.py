@@ -4,10 +4,7 @@ import os
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 #Currency and Node definations
-CURRENCY = "4A"
-NODE_OWNER_WALLET = "4A293aec6e4fe9a57c30af4f6ed7cc9723"
-REWARD_HASH = "4a4a4a4a4a4a4a4a4a4a4a4a4a4a4a4a4a4a4a4a4a4a4a4a4a4a4a4a4a4a4a4a"
-REWARD_TIME = 1 #Nodes total wait per reward time. Example: 120 for 2 hours.
+CURRENCY = "SYMC"
 
 
 # Celery settings
